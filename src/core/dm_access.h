@@ -42,7 +42,7 @@
 #ifndef DM_ACCESS_H
 #define DM_ACCESS_H
 
-#include "vendor_defs.h"  // For REMOVE_DEVICE_SECURITY
+#include <obuspa/vendor_defs.h>  // For REMOVE_DEVICE_SECURITY
 #include <time.h>
 #include "str_vector.h"
 #include "nu_ipaddr.h"

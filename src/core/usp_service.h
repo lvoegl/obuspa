@@ -42,7 +42,7 @@
 
 #ifndef USP_SERVICE_H
 #define USP_SERVICE_H
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 
 //------------------------------------------------------------------------------
 // API

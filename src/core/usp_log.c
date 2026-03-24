@@ -40,7 +40,7 @@
  *
  */
 
-#include "vendor_defs.h"   // For REMOVE_DEVICE_SECURITY
+#include <obuspa/vendor_defs.h>   // For REMOVE_DEVICE_SECURITY
 
 #ifndef REMOVE_DEVICE_SECURITY
 #include <openssl/err.h>
@@ -62,7 +62,7 @@
 
 #include "common_defs.h"
 #include "cli.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "data_model.h"  // for vendor_hook_callbacks
 #include "os_utils.h"
 

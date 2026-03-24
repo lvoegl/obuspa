@@ -51,7 +51,7 @@
 #include "iso8601.h"
 #include "usp_broker.h"
 #include "os_utils.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "usp_service.h"
 #include "path_resolver.h"
 

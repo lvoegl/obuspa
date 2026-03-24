@@ -47,7 +47,7 @@
 
 #include "common_defs.h"
 #include "data_model.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "dm_access.h"
 #include "dm_trans.h"
 #include "mtp_exec.h"

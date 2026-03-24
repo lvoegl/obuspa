@@ -52,7 +52,7 @@
 
 #include "common_defs.h"
 #include "nu_macaddr.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "text_utils.h"
 #include "cli.h"
 

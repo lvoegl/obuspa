@@ -47,7 +47,7 @@
 #include <time.h>
 #include <stdbool.h>
 
-#include "vendor_defs.h"    // for E2ESESSION_EXPERIMENTAL_USP_V_1_2
+#include <obuspa/vendor_defs.h>    // for E2ESESSION_EXPERIMENTAL_USP_V_1_2
 #include "usp-msg.pb-c.h"
 
 //-----------------------------------------------------------------------------------------------

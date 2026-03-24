@@ -53,7 +53,7 @@
 #include "dm_inst_vector.h"
 #include "os_utils.h"
 #include "text_utils.h"
-#include "vendor_api.h"
+#include <obuspa/vendor_api.h>
 #include "plugin.h"
 
 //--------------------------------------------------------------------

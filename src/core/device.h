@@ -44,14 +44,14 @@
 #ifndef DEVICE_H
 #define DEVICE_H
 
-#include "vendor_defs.h"  // For E2ESESSION_EXPERIMENTAL_USP_V_1_2 and REMOVE_DEVICE_SECURITY
+#include <obuspa/vendor_defs.h>  // For E2ESESSION_EXPERIMENTAL_USP_V_1_2 and REMOVE_DEVICE_SECURITY
 
 #ifndef REMOVE_DEVICE_SECURITY
 #include <openssl/ssl.h>
 #endif
 
 #include "kv_vector.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "subs_vector.h"
 #include "mtp_exec.h"
 #include "mqtt.h"

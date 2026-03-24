@@ -43,7 +43,7 @@
 #ifndef INT_VECTOR_H
 #define INT_VECTOR_H
 
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 
 //-----------------------------------------------------------------------------------------
 // Int Vector API

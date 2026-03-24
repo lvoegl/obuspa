@@ -45,7 +45,7 @@
 
 #include <limits.h>
 
-#include "vendor_defs.h"  // For E2ESESSION_EXPERIMENTAL_USP_V_1_2
+#include <obuspa/vendor_defs.h>  // For E2ESESSION_EXPERIMENTAL_USP_V_1_2
 #include "usp-msg.pb-c.h"
 #include "kv_vector.h"
 #include "mtp_exec.h"

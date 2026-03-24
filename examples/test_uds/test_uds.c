@@ -50,11 +50,11 @@
 #include <errno.h>
 #include <unistd.h>
 
-#include "usp_err_codes.h"
-#include "vendor_defs.h"
+#include <obuspa/usp_err_codes.h>
+#include <obuspa/vendor_defs.h>
 #include "common_defs.h"
-#include "vendor_api.h"
-#include "usp_api.h"
+#include <obuspa/vendor_api.h>
+#include <obuspa/usp_api.h>
 #include "os_utils.h"
 #include "socket_set.h"
 #include "usp-msg.pb-c.h"

@@ -42,7 +42,7 @@
 #ifndef USP_MEM_H
 #define USP_MEM_H
 
-#include "compiler.h"
+#include <obuspa/compiler.h>
 
 //------------------------------------------------------------------------------------
 // Helper macros, so that the code does not have to provide (__FUNCTION__, __LINE__) to the underlying function

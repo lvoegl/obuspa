@@ -27,9 +27,10 @@ add_executable(obuspa
     src/core/main.c)
 
 target_include_directories(obuspa
+  PUBLIC
+    ${PROJECT_SOURCE_DIR}/include
   PRIVATE
     src
-    src/include
     src/protobuf-c
     src/core
     src/vendor)

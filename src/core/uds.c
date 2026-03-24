@@ -57,7 +57,7 @@
 #include "uds.h"
 #include "device.h"
 #include "dm_exec.h"
-#include "vendor_defs.h"
+#include <obuspa/vendor_defs.h>
 #include "dllist.h"
 #include "msg_handler.h"
 #include "mtp_exec.h"

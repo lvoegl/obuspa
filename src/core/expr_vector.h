@@ -44,7 +44,7 @@
 #define EXPR_VECTOR_H
 
 #include "kv_vector.h"
-#include "usp_api.h"   // for expr_op_t
+#include <obuspa/usp_api.h>   // for expr_op_t
 
 //-----------------------------------------------------------------------------------------
 // Type representing expression component

@@ -43,7 +43,7 @@
 #include "usp_mem.h"
 #include "usp_err.h"
 #include "usp_log.h"
-#include "vendor_defs.h"
+#include <obuspa/vendor_defs.h>
 #include "os_utils.h"
 
 #ifdef FD_PASSING_EXPERIMENTAL

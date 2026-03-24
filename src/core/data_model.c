@@ -54,7 +54,7 @@
 #include "dm_trans.h"
 #include "dm_access.h"
 #include "cli.h"
-#include "vendor_api.h"
+#include <obuspa/vendor_api.h>
 #include "text_utils.h"
 #include "iso8601.h"
 #include "group_get_vector.h"

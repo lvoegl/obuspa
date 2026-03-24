@@ -44,7 +44,7 @@
 #ifndef USP_ERR_H
 #define USP_ERR_H
 
-#include "usp_err_codes.h"
+#include <obuspa/usp_err_codes.h>
 #include <assert.h>
 
 //------------------------------------------------------------------------------------

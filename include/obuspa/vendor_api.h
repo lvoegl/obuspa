@@ -42,8 +42,8 @@
 #ifndef VENDOR_API_H
 #define VENDOR_API_H
 
-#include "vendor_defs.h"
-#include "usp_api.h"
+#include <obuspa/vendor_defs.h>
+#include <obuspa/usp_api.h>
 
 //---------------------------------------------------------------------
 // Vendor API

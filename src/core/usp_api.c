@@ -45,7 +45,7 @@
 
 #include "common_defs.h"
 #include "data_model.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "iso8601.h"
 #include "os_utils.h"
 #include "device.h"

@@ -43,7 +43,7 @@
 #ifndef STR_VECTOR_H
 #define STR_VECTOR_H
 
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "kv_vector.h"
 
 //-----------------------------------------------------------------------------------------

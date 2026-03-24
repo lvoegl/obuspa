@@ -47,7 +47,7 @@
 #include <time.h>       // for time_t
 #include <limits.h>     // for INT_MAX
 #include <string.h>
-#include "vendor_defs.h"
+#include <obuspa/vendor_defs.h>
 #include "usp_err.h"
 #include "usp_log.h"
 #include "usp_mem.h"

@@ -42,7 +42,7 @@
 #ifndef TEXT_UTILS_H
 #define TEXT_UTILS_H
 
-#include "vendor_defs.h"  // For REMOVE_DEVICE_SECURITY
+#include <obuspa/vendor_defs.h>  // For REMOVE_DEVICE_SECURITY
 #include "str_vector.h"
 #include "nu_ipaddr.h"
 #include "data_model.h"  // for dm_hash_t

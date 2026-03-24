@@ -43,7 +43,7 @@
 #ifndef USP_LOG_H
 #define USP_LOG_H
 
-#include "usp_api.h"      // For backwards compatibility with this file declaring all USP_LOG_XXX API functions
+#include <obuspa/usp_api.h>      // For backwards compatibility with this file declaring all USP_LOG_XXX API functions
 
 //------------------------------------------------------------------------------------
 // API

@@ -39,7 +39,7 @@
  * Implements the Device.LocalAgent.Certificate and the Device.Security data model object
  *
  */
-#include "vendor_defs.h"
+#include <obuspa/vendor_defs.h>
 
 #ifndef REMOVE_DEVICE_SECURITY
 #include <time.h>
@@ -60,10 +60,10 @@
 #include "common_defs.h"
 #include "stomp.h"
 #include "data_model.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "device.h"
 #include "dm_access.h"
-#include "vendor_api.h"
+#include <obuspa/vendor_api.h>
 #include "iso8601.h"
 #include "text_utils.h"
 #include "os_utils.h"

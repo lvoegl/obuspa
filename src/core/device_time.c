@@ -48,7 +48,7 @@
 
 #include "common_defs.h"
 #include "data_model.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "iso8601.h"
 
 #ifndef REMOVE_DEVICE_TIME

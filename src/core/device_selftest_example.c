@@ -45,7 +45,7 @@
 #include <string.h>
 
 #include "common_defs.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "dm_access.h"
 #include "os_utils.h"
 

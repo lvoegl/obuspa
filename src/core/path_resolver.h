@@ -44,7 +44,7 @@
 
 #include <limits.h>
 
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "str_vector.h"
 
 // Enumeration determining what we are attempting to resolve with the path expression

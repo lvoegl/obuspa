@@ -42,7 +42,7 @@
 #ifndef E2E_CONTEXT_H
 #define E2E_CONTEXT_H
 
-#include "vendor_defs.h"  // For E2ESESSION_EXPERIMENTAL_USP_V_1_2
+#include <obuspa/vendor_defs.h>  // For E2ESESSION_EXPERIMENTAL_USP_V_1_2
 #if defined(E2ESESSION_EXPERIMENTAL_USP_V_1_2)
 
 #include "usp-record.pb-c.h"

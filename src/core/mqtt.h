@@ -41,7 +41,7 @@
 
 #include <stdbool.h>
 
-#include "vendor_defs.h"  // For MAX_MQTT_SUBSCRIPTIONS
+#include <obuspa/vendor_defs.h>  // For MAX_MQTT_SUBSCRIPTIONS
 #include "usp-msg.pb-c.h"
 #include "mtp_exec.h"
 #include "socket_set.h"

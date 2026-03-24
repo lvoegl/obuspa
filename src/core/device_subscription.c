@@ -48,7 +48,7 @@
 #include "common_defs.h"
 #include "device.h"
 #include "dm_trans.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "dm_access.h"
 #include "iso8601.h"
 #include "subs_vector.h"

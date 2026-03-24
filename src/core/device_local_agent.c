@@ -49,7 +49,7 @@
 #include <sys/sysinfo.h>
 
 #include "common_defs.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "dm_access.h"
 #include "data_model.h"
 #include "device.h"

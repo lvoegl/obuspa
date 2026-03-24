@@ -4,11 +4,11 @@ add_library(vendor
 
 target_include_directories(vendor
   PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}
+    ${PROJECT_SOURCE_DIR}/include
+    ${PROJECT_SOURCE_DIR}/include/obuspa
   PRIVATE
-    ${PROJECT_SOURCE_DIR}/src/
-    ${PROJECT_SOURCE_DIR}/src/vendor
-    ${PROJECT_SOURCE_DIR}/src/include)
+    ${PROJECT_SOURCE_DIR}/src
+    ${PROJECT_SOURCE_DIR}/src/vendor)
 
 target_compile_definitions(vendor
   PRIVATE

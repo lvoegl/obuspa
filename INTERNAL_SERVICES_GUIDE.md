@@ -16,7 +16,7 @@ USP Services provide broadly two features:-
 
 ## Building support for USP Services
 
-USP Broker support is enabled by default. It can be explicitly disabled by defining "REMOVE_USP_BROKER" in /src/vendor/vendor_defs.h 
+USP Broker support is enabled by default. It can be explicitly disabled by defining "REMOVE_USP_BROKER" in /include/obuspa/vendor_defs.h 
 
 ## Running OBUSPA as a Broker
 
@@ -179,7 +179,7 @@ int USP_SERVICE_Set(kv_vector_t *params, int timeout, char *err_msg, int err_msg
 ```
 In both cases "params" is a structure containing a list of key/value pairs.  Both Get and Set can take a list of one or more TR-181 datamodel paths (and in the case of "set" also the corresponding values of the keys to update).   For the purposes of the example we'll wrap these in some primitive string parsing code to extract the keys and values from the string returned from readline.  The full listing for our thread function is shown below (note that in the interest of brevity this source code does not handle error paths. It's intended to serve only as an example of how USP Service API can be used):-
 ````
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "kv_vector.h"
 #include "text_utils.h"
 #include <stdio.h>

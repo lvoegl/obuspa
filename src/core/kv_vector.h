@@ -46,7 +46,7 @@
 #include <time.h>
 #include <limits.h>         // included as a convenience because calls to KV_VECTOR_GetUnsignedWithinRange() often reference UINT_MAX
 
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "str_vector.h"
 
 //-----------------------------------------------------------------------------------------

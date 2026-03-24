@@ -43,7 +43,7 @@
 #ifndef DATA_MODEL_H
 #define DATA_MODEL_H
 
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "dllist.h"
 #include "str_vector.h"
 #include "int_vector.h"
@@ -51,7 +51,7 @@
 #include "subs_vector.h"
 #include "device.h"
 #include "group_set_vector.h"
-#include "vendor_defs.h"  // For MAX_DM_INSTANCE_ORDER
+#include <obuspa/vendor_defs.h>  // For MAX_DM_INSTANCE_ORDER
 
 //-----------------------------------------------------------------------------------------
 // Type of each data model node

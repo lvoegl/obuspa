@@ -54,7 +54,7 @@
 
 #include "common_defs.h"
 #include "nu_ipaddr.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "data_model.h"
 #include "nu_macaddr.h"
 #include "device.h"

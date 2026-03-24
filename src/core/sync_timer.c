@@ -47,7 +47,7 @@
 
 #include "common_defs.h"
 #include "sync_timer.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 
 //--------------------------------------------------------------------------------------
 // Structure describing a timer

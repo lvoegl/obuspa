@@ -58,7 +58,7 @@
 
 #include "common_defs.h"
 #include "usp_coap.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "usp-msg.pb-c.h"
 #include "msg_handler.h"
 #include "os_utils.h"

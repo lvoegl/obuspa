@@ -40,7 +40,7 @@
  *
  */
 
-#include "vendor_defs.h"   // For REMOVE_DEVICE_SECURITY
+#include <obuspa/vendor_defs.h>   // For REMOVE_DEVICE_SECURITY
 
 #ifndef REMOVE_DEVICE_SECURITY
 #include <openssl/evp.h>

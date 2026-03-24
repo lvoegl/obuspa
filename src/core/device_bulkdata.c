@@ -50,7 +50,7 @@
 
 #include "common_defs.h"
 #include "data_model.h"
-#include "usp_api.h"
+#include <obuspa/usp_api.h>
 #include "msg_handler.h"
 #include "path_resolver.h"
 #include "dm_access.h"

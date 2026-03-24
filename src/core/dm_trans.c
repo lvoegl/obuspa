@@ -51,7 +51,7 @@
 #include "database.h"
 #include "device.h"
 #include "dm_inst_vector.h"
-#include "vendor_api.h"
+#include <obuspa/vendor_api.h>
 #include "text_utils.h"
 #include "se_cache.h"
 

@@ -43,7 +43,7 @@
 #ifndef USP_API_H
 #define USP_API_H
 
-#include "vendor_defs.h"  // For MAX_DM_INSTANCE_ORDER and REMOVE_DEVICE_SECURITY
+#include <obuspa/vendor_defs.h>  // For MAX_DM_INSTANCE_ORDER and REMOVE_DEVICE_SECURITY
 
 #include <time.h>
 #include <stdbool.h>

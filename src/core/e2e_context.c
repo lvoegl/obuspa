@@ -40,7 +40,7 @@
  *
  */
 
-#include "vendor_defs.h"  // For E2ESESSION_EXPERIMENTAL_USP_V_1_2
+#include <obuspa/vendor_defs.h>  // For E2ESESSION_EXPERIMENTAL_USP_V_1_2
 
 #if defined(E2ESESSION_EXPERIMENTAL_USP_V_1_2)
 #include <inttypes.h>  // For PRIu64
